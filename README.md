@@ -30,3 +30,4 @@ This is the first homepage prototype. It includes:
 3. Replace placeholder contact links
 4. Build full interior pages
 5. Connect inquiry forms
+Website deployment connected to Cloudflare.
