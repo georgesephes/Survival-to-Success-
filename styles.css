@@ -1,0 +1,129 @@
+
+:root{--blue:#0b6f9f;--blue-deep:#073f5d;--blue-dark:#042f47;--blue-light:#9bcde9;--gold:#d5ad4c;--gold-soft:#f4e4ae;--ink:#17313f;--muted:#657882;--cream:#f7f6f1;--warm:#fbf5e8;--white:#fff;--line:#dce5e8;--sage:#e9f1ec}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit}img{max-width:100%;display:block}.site-header{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:12px clamp(20px,5vw,76px);background:rgba(255,255,255,.96);border-bottom:1px solid rgba(7,63,93,.08);backdrop-filter:blur(12px)}.brand img{width:185px;height:60px;object-fit:contain}.nav{display:flex;align-items:center;gap:25px;font-size:.91rem;font-weight:600}.nav a{text-decoration:none}.nav a:hover{color:var(--blue)}.nav-cta{background:var(--blue-deep);color:#fff!important;padding:11px 18px;border-radius:999px}.menu-button{display:none;border:0;background:var(--blue-deep);color:#fff;padding:10px 14px;border-radius:8px}main section{padding:96px clamp(24px,7vw,110px)}.eyebrow,.section-label{letter-spacing:.16em;font-weight:700;font-size:.78rem;color:var(--blue);text-transform:uppercase}.section-label{margin-bottom:28px}.section-label.light{color:var(--gold-soft)}h1,h2,h3,blockquote{font-family:"Libre Baskerville",Georgia,serif;line-height:1.14}h1{font-size:clamp(3rem,6vw,6.2rem);color:var(--blue-dark);margin:15px 0 20px;letter-spacing:-.035em}h2{font-size:clamp(2rem,4vw,3.9rem);color:var(--blue-dark);margin:0 0 18px}h3{color:var(--blue-dark)}.lead{font-size:1.12rem;color:#536c78;max-width:760px}.vision-line{font-family:"Libre Baskerville",Georgia,serif;font-size:clamp(1.15rem,2vw,1.6rem);color:var(--gold);margin:0 0 24px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.button{display:inline-block;text-decoration:none;padding:14px 21px;border-radius:8px;font-weight:700}.primary{background:var(--blue-deep);color:#fff}.secondary{border:1px solid var(--blue-deep);color:var(--blue-deep);background:#fff}.text-link{font-weight:700;text-decoration:none}.text-link.dark{color:var(--blue-deep)}.split{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(44px,8vw,130px);align-items:start}.body-copy p{color:var(--muted);font-size:1.05rem}.accent-question{font-family:"Libre Baskerville",Georgia,serif;color:var(--gold);font-size:1.35rem}.hero-v2{display:grid;grid-template-columns:1.02fr .98fr;gap:60px;align-items:center;min-height:690px;background:linear-gradient(135deg,#fbfcfd 0%,#f6f9f7 62%,#fbf5e8 100%);overflow:hidden}.hero-collage{position:relative;min-height:540px}.hero-collage figure{margin:0;position:absolute;overflow:hidden;border-radius:24px;box-shadow:0 18px 50px rgba(4,47,71,.14)}.hero-collage img{width:100%;height:100%;object-fit:cover}.collage-main{width:72%;height:72%;right:0;top:4%}.collage-small{width:38%;height:38%}.collage-small.one{left:1%;bottom:3%}.collage-small.two{right:4%;bottom:-3%}.growth-mark{position:absolute;left:3%;top:4%;background:var(--blue-deep);color:#fff;padding:12px 16px;border-radius:999px;font-size:.78rem;letter-spacing:.08em}.human-strip{padding:26px!important;background:var(--gold-soft);text-align:center}.human-strip p{margin:0;font-size:1.07rem;color:var(--blue-dark)}.story-section{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.warm{background:var(--warm)}.story-image img{width:100%;max-height:560px;object-fit:cover;border-radius:28px}.story-copy p{color:var(--muted)}.mission-vision{background:var(--cream)}.mission-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.mission-grid article{background:#fff;padding:38px;border:1px solid var(--line);border-radius:16px}.mission-grid article>span{color:var(--gold);font-weight:700}.path-section{background:var(--blue-deep);color:#fff}.path-section>h2{color:#fff}.path-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:44px}.path-card{background:#fff;color:var(--ink);border-radius:18px;overflow:hidden;padding-bottom:38px}.card-photo{height:250px}.card-photo img{width:100%;height:100%;object-fit:cover}.path-card>p,.path-card>h3,.path-card>.mini-list,.path-card>a{margin-left:34px;margin-right:34px}.path-card .card-kicker{color:var(--blue);font-weight:700;letter-spacing:.12em;font-size:.78rem;margin-top:28px}.path-card h3{font-size:clamp(2rem,3.7vw,3.15rem);margin-top:8px;margin-bottom:16px}.path-card p:not(.card-kicker){color:var(--muted)}.mini-list{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px;margin-bottom:22px}.mini-list span{border:1px solid var(--line);padding:7px 11px;border-radius:999px;font-size:.84rem}.path-card a{font-weight:700;color:var(--blue-deep);text-decoration:none}.speaking-preview{background:var(--blue-dark);color:#fff}.speaking-preview h2{color:#fff}.speaking-preview p{color:#cad7dd}.gold-button{background:var(--gold);color:var(--blue-dark)}.workshop-list article{display:grid;grid-template-columns:60px 1fr;gap:12px;align-items:center;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.15)}.workshop-list span{color:var(--gold-soft);font-weight:700}.workshop-list h3{color:#fff;margin:0;font-size:1.15rem}.about-george-preview{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px;align-items:center;background:#f9fbfb}.portrait-wrap img{width:100%;max-width:430px;border-radius:24px}.contact-section{text-align:center;background:linear-gradient(135deg,var(--blue-deep),var(--blue-dark));color:#fff}.contact-section h2{color:#fff}.contact-section p{color:#cad7dd}.centered-actions{justify-content:center}.gold{color:var(--gold-soft)}.light-button{background:#fff;color:var(--blue-dark)}.outline-light{border:1px solid rgba(255,255,255,.5);color:#fff}.individual-hero,.org-hero,.speaking-hero,.about-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.individual-hero{background:linear-gradient(135deg,#fffaf1,#f4f7f2)}.faith-note{font-family:"Libre Baskerville";font-size:1.14rem;color:#8a6b2c;max-width:720px}.warm-button{background:var(--gold);color:var(--blue-dark)}.individual-photo-stack{position:relative;min-height:560px}.ind-main{position:absolute;right:0;top:0;width:78%;height:78%;object-fit:cover;border-radius:28px}.ind-small{position:absolute;left:0;bottom:0;width:52%;height:48%;object-fit:cover;border:10px solid #fff;border-radius:24px}.reflection-section{background:var(--blue-deep)}.reflection-card{max-width:950px;margin:auto;text-align:center}.reflection-card .section-label{color:var(--gold-soft)}.reflection-card blockquote{color:#fff;font-size:clamp(2rem,4vw,4rem);margin:0}.faith-community-section{display:grid;grid-template-columns:1fr 1fr;padding:0!important;background:var(--warm)}.photo-panel img{width:100%;height:100%;min-height:600px;object-fit:cover}.content-panel{padding:90px clamp(26px,7vw,90px)}.content-panel p{color:var(--muted)}.offers-section{background:var(--sage)}.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.offer-grid article{background:#fff;padding:32px;border-radius:16px}.offer-number{color:var(--gold);font-weight:700}.offer-grid p{color:var(--muted)}.status{font-size:.84rem;font-weight:700;color:var(--blue)!important;text-transform:uppercase;letter-spacing:.08em}.org-hero{background:linear-gradient(135deg,#f8fafb,#eef4f6)}.org-subhead{font-family:"Libre Baskerville";font-size:1.6rem;color:var(--gold)}.org-photo img,.speaking-hero-photo img,.portrait-large img{width:100%;max-height:620px;object-fit:cover;border-radius:26px}.org-question-band{padding:34px!important;background:var(--blue-deep);color:#fff;text-align:center}.org-question-band p{margin:0 0 4px}.org-question-band strong{color:var(--gold-soft);font-size:1.2rem}.audiences-section{background:var(--cream)}.audience-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.audience-cards article{background:#fff;padding:30px;border:1px solid var(--line);border-radius:14px}.audience-cards span{color:var(--gold);font-weight:700}.audience-cards p{color:var(--muted)}.engagements-section{background:var(--blue-dark);color:#fff}.engagement-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.engagement-grid article{padding:28px;border:1px solid rgba(255,255,255,.16);border-radius:14px}.engagement-grid h3{color:#fff}.engagement-grid p{color:#c9d6db}.speaking-hero{background:#f8fafb}.workshops-section{background:#fff}.workshop-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.workshop-grid article{border:1px solid var(--line);padding:32px;border-radius:16px}.workshop-grid span{color:var(--gold);font-weight:700}.workshop-grid h2{font-size:clamp(1.5rem,2.5vw,2.4rem)}.workshop-grid p{color:var(--muted)}.speaking-gallery{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:14px;padding-top:0!important}.speaking-gallery img{width:100%;height:420px;object-fit:cover;border-radius:18px}.about-hero{grid-template-columns:.75fr 1.25fr;background:#f9fbfb}.identity-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;background:var(--cream)}.identity-grid article{background:#fff;padding:28px;border-radius:14px}.identity-grid span{color:var(--gold);font-weight:700}.identity-grid p{color:var(--muted)}.about-story{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.story-photo img{width:100%;max-height:560px;object-fit:cover;border-radius:26px}.insights-hero{text-align:center;background:linear-gradient(135deg,#f8fafb,#fff8e9)}.insights-hero .lead{margin:auto}.insight-categories{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.insight-categories article{padding:30px;border:1px solid var(--line);border-radius:16px}.insight-categories span{color:var(--blue);font-weight:700;font-size:.82rem}.insight-categories h2{font-size:1.7rem;margin-top:18px}.insight-categories p{color:var(--muted)}.site-footer{padding:42px clamp(24px,7vw,110px);text-align:center;border-top:1px solid var(--line)}.site-footer img{width:180px;margin:auto}.footer-tagline{color:var(--blue-deep);margin:8px}.footer-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:16px 0}.footer-links a{text-decoration:none;color:var(--muted);font-size:.9rem}.footer-small{color:var(--muted);font-size:.82rem}@media(max-width:1040px){.menu-button{display:block}.nav{display:none;position:absolute;left:18px;right:18px;top:78px;flex-direction:column;align-items:stretch;gap:0;background:#fff;box-shadow:0 18px 40px rgba(7,63,93,.13);border-radius:12px;overflow:hidden}.nav.open{display:flex}.nav a{padding:14px 18px;border-bottom:1px solid #eef2f3}.nav-cta{border-radius:0}.hero-v2,.individual-hero,.org-hero,.speaking-hero,.about-hero,.story-section,.about-george-preview,.about-story,.split{grid-template-columns:1fr}.hero-collage{min-height:520px}.mission-grid,.path-grid,.audience-cards,.workshop-grid,.insight-categories{grid-template-columns:1fr}.engagement-grid,.identity-grid{grid-template-columns:repeat(2,1fr)}.offer-grid{grid-template-columns:1fr}.faith-community-section{grid-template-columns:1fr}.speaking-gallery{grid-template-columns:1fr}.speaking-gallery img{height:360px}}@media(max-width:650px){.site-header{padding:8px 18px}.brand img{width:145px;height:50px}main section{padding:72px 22px}h1{font-size:clamp(2.7rem,13vw,4.3rem)}.hero-v2{gap:20px}.hero-collage{min-height:430px}.collage-main{width:88%;height:62%}.collage-small{width:48%;height:34%}.growth-mark{font-size:.65rem}.hero-actions{flex-direction:column}.button{text-align:center}.path-card>p,.path-card>h3,.path-card>.mini-list,.path-card>a{margin-left:24px;margin-right:24px}.individual-photo-stack{min-height:430px}.ind-main{width:88%;height:70%}.ind-small{width:58%;height:40%}.engagement-grid,.identity-grid{grid-template-columns:1fr}}
+
+
+/* V3 homepage: restores V1 structure with integrated photography */
+.hero-v3{
+  display:grid;
+  grid-template-columns:1.02fr .98fr;
+  gap:60px;
+  align-items:center;
+  min-height:690px;
+  background:linear-gradient(135deg,#fbfcfd 0%,#f6f9f7 62%,#fbf5e8 100%);
+  overflow:hidden;
+}
+.problem-section{background:#fff}
+.about-section{background:var(--cream)}
+.centered{max-width:950px;margin:0 auto 70px;text-align:center}
+.centered blockquote{
+  font-family:"Libre Baskerville",Georgia,serif;
+  color:var(--blue-deep);
+  font-size:clamp(1.7rem,3.2vw,3rem);
+  margin:22px 0;
+}
+.centered p{color:var(--muted);font-size:1.05rem}
+.wide-photo{
+  margin-top:54px;
+  height:360px;
+  overflow:hidden;
+  border-radius:20px;
+}
+.wide-photo img{width:100%;height:100%;object-fit:cover;object-position:center 42%}
+.photo-ribbon{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:14px;
+  margin-top:30px;
+}
+.photo-ribbon img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:14px;
+}
+.organizations-section{background:#fff}
+.audience-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+}
+.audience-grid div{padding:24px 0;border-top:1px solid var(--line)}
+.audience-grid strong{display:block;color:var(--blue-deep);font-size:1.04rem;margin-bottom:8px}
+.audience-grid span{display:block;color:var(--muted);font-size:.96rem}
+.section-photo{
+  margin-top:34px;
+  overflow:hidden;
+  border-radius:18px;
+}
+.section-photo img{
+  width:100%;
+  height:330px;
+  object-fit:cover;
+}
+.speaking-section{
+  background:var(--blue-dark);
+  color:#fff;
+}
+.speaking-section h2{color:#fff}
+.speaking-section p{color:#c8d7dd}
+.dark-photo img{height:350px}
+.original-workshops{margin-top:6px}
+.george-section{background:#f9fbfb}
+.about-mini-photo{
+  margin-top:30px;
+  max-width:360px;
+  overflow:hidden;
+  border-radius:18px;
+}
+.about-mini-photo img{
+  width:100%;
+  height:390px;
+  object-fit:cover;
+}
+.insights-section{background:#fff}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:40px;
+  margin-bottom:36px;
+}
+.section-head p{color:var(--muted);max-width:470px}
+.insight-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+.insight-grid article{
+  min-height:250px;
+  padding:28px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:linear-gradient(180deg,#fff,#f8faf9);
+}
+.insight-grid span{color:var(--blue);font-size:.8rem;font-weight:700}
+.insight-grid h3{margin-top:40px;color:var(--blue-dark);font-size:1.35rem}
+@media(max-width:1040px){
+  .hero-v3{grid-template-columns:1fr}
+  .photo-ribbon{grid-template-columns:1fr}
+  .photo-ribbon img{height:320px}
+  .audience-grid{grid-template-columns:1fr}
+  .insight-grid{grid-template-columns:1fr}
+  .section-head{display:block}
+}
+@media(max-width:650px){
+  .wide-photo{height:280px}
+  .section-photo img{height:260px}
+  .about-mini-photo img{height:340px}
+}
+/* Reposition George's photo on Speaking page */
+.speaking-hero-photo img {
+    object-position: center top;
+}
+
+
+/* Sitewide contact form */
+.contact-form-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(50px,8vw,120px);background:var(--cream);align-items:start}
+.contact-form-intro p:not(.section-label){color:var(--muted);max-width:520px}
+.contact-form-wrap{background:#fff;border:1px solid var(--line);border-radius:20px;padding:clamp(26px,4vw,46px);box-shadow:0 15px 45px rgba(7,63,93,.06)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.form-field{margin-bottom:20px}.form-field label{display:block;font-weight:700;color:var(--blue-deep);margin-bottom:7px}.form-field input,.form-field select,.form-field textarea{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);font:inherit}.form-field textarea{resize:vertical}.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:2px solid rgba(11,111,159,.2);border-color:var(--blue)}.contact-submit{border:0;cursor:pointer}.form-success{padding:16px 18px;margin-bottom:22px;background:var(--sage);border-radius:9px;color:var(--blue-deep);font-weight:600}.form-error,.field-error{color:#9c2727;font-size:.86rem}@media(max-width:900px){.contact-form-section,.form-row{grid-template-columns:1fr}}
